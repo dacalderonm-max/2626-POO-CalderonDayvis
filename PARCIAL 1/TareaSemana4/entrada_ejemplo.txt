@@ -1,0 +1,27 @@
+Mi Restaurante
+1
+1
+1
+Pizza Italiana
+Pizza con ingredientes frescos
+12.99
+25
+3
+2
+1
+2
+Carlos Lopez
+carlos@email.com
++593-987654
+3
+2
+1
+2
+3
+102
+1
+3
+fin
+4
+8
+

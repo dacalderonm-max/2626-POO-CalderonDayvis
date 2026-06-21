@@ -1,0 +1,292 @@
+╔════════════════════════════════════════════════════════════════════════╗
+║       SISTEMA DE GESTIÓN DE RESTAURANTE - VERSIÓN INTERACTIVA           ║
+║                     PROYECTO COMPLETADO Y FUNCIONAL                     ║
+╚════════════════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════════════════
+                         INSTRUCCIONES DE USO
+═══════════════════════════════════════════════════════════════════════════
+
+UBICACIÓN DEL PROYECTO:
+C:\Users\Dayvis\OneDrive - Universidad Estatal Amazónica\UEA-REPOSITORY-2626\
+2626-POO-CalderonDayvis\PARCIAL 1\TareaSemana4\
+
+═══════════════════════════════════════════════════════════════════════════
+                      EJECUTAR PROGRAMA INTERACTIVO
+═══════════════════════════════════════════════════════════════════════════
+
+OPCIÓN 1 - En PowerShell (Windows):
+───────────────────────────────────────────────────────────────────────
+cd "C:\Users\Dayvis\OneDrive - Universidad Estatal Amazónica\UEA-REPOSITORY-2626\2626-POO-CalderonDayvis\PARCIAL 1\TareaSemana4"
+python main_interactivo.py
+
+OPCIÓN 2 - En CMD (Windows):
+───────────────────────────────────────────────────────────────────────
+cd C:\Users\Dayvis\OneDrive - Universidad Estatal Amazónica\UEA-REPOSITORY-2626\2626-POO-CalderonDayvis\PARCIAL 1\TareaSemana4
+python main_interactivo.py
+
+OPCIÓN 3 - En macOS/Linux:
+───────────────────────────────────────────────────────────────────────
+cd TareaSemana4
+python main_interactivo.py
+
+═══════════════════════════════════════════════════════════════════════════
+                       OPCIONES DEL MENÚ PRINCIPAL
+═══════════════════════════════════════════════════════════════════════════
+
+┌─ MENÚ PRINCIPAL ────────────────────────────────────────────────────────┐
+│                                                                           │
+│  1. Gestionar Productos         [Agregar/Ver productos]                  │
+│  2. Gestionar Clientes          [Registrar/Ver clientes]                 │
+│  3. Realizar Pedido             [Procesar pedidos de clientes]           │
+│  4. Ver Catálogo                [Muestra todos los productos]            │
+│  5. Ver Clientes                [Muestra todos los clientes]             │
+│  6. Ver Estadísticas            [Ingresos y resumen]                     │
+│  7. Ver Inventario              [Disponibilidad actual]                  │
+│  8. Salir                       [Cierra el programa]                     │
+│                                                                           │
+└─────────────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════
+                          ESTRUCTURA DEL PROYECTO
+═══════════════════════════════════════════════════════════════════════════
+
+TareaSemana4/
+├── main_interactivo.py              [EJECUTAR ESTE - Programa interactivo]
+├── main.py                          [Versión de demostración automática]
+├── README.md                        [Documentación completa (14 KB)]
+├── GUIA_PROGRAMA_INTERACTIVO.md     [Manual de uso detallado (12 KB)]
+├── RESUMEN_PROYECTO.md              [Resumen ejecutivo (4.5 KB)]
+├── INICIO_RAPIDO.md                 [Instrucciones inicio (6 KB)]
+├── entrada_ejemplo.txt              [Entrada de ejemplo]
+├── demo_productos.txt               [Demostración con productos]
+├── modelos/
+│   ├── __init__.py
+│   ├── producto.py                  [Clase Producto - 2.6 KB]
+│   └── cliente.py                   [Clase Cliente - 2.9 KB]
+└── servicios/
+    ├── __init__.py
+    └── restaurante.py               [Clase Restaurante - 6.7 KB]
+
+═══════════════════════════════════════════════════════════════════════════
+                        PASO A PASO - EJEMPLO DE USO
+═══════════════════════════════════════════════════════════════════════════
+
+PASO 1: Abrir Terminal
+════════════════════════════════════════════════════════════════════════════
+PowerShell / CMD / Terminal
+
+PASO 2: Navegar a la Carpeta
+════════════════════════════════════════════════════════════════════════════
+cd "C:\Users\Dayvis\OneDrive - Universidad Estatal Amazónica\UEA-REPOSITORY-2626\2626-POO-CalderonDayvis\PARCIAL 1\TareaSemana4"
+
+PASO 3: Ejecutar el Programa
+════════════════════════════════════════════════════════════════════════════
+python main_interactivo.py
+
+PASO 4: Sistema Pregunta por el Nombre del Restaurante
+════════════════════════════════════════════════════════════════════════════
+¿Cuál es el nombre de su restaurante?
+→ Escribe tu restaurante [Enter]
+
+PASO 5: Ver Menú Principal
+════════════════════════════════════════════════════════════════════════════
+SISTEMA DE GESTIÓN DE RESTAURANTE - MENÚ PRINCIPAL
+1. Gestionar Productos
+2. Gestionar Clientes
+3. Realizar Pedido
+...y más opciones
+
+PASO 6: Agregar Producto (Opción 1)
+════════════════════════════════════════════════════════════════════════════
+Seleccione una opción: 1 [Enter]
+Agregar nuevo producto: 1 [Enter]
+
+Ingrese el ID del producto: 101 [Enter]
+Ingrese el nombre del producto: Pizza [Enter]
+Ingrese la descripción: Pizza Italiana [Enter]
+Ingrese el precio: 12.99 [Enter]
+Ingrese la cantidad disponible: 25 [Enter]
+
+[OK] Producto agregado exitosamente.
+
+PASO 7: Agregar Cliente (Opción 2)
+════════════════════════════════════════════════════════════════════════════
+Seleccione una opción: 2 [Enter]
+Agregar nuevo cliente: 1 [Enter]
+
+Ingrese el ID del cliente: 1001 [Enter]
+Ingrese el nombre del cliente: Juan [Enter]
+Ingrese el email: juan@email.com [Enter]
+Ingrese el teléfono: +593-999-1234 [Enter]
+
+[OK] Cliente registrado exitosamente.
+
+PASO 8: Realizar Pedido (Opción 3)
+════════════════════════════════════════════════════════════════════════════
+Seleccione una opción: 3 [Enter]
+
+Ingrese el ID del cliente: 1001 [Enter]
+
+Productos disponibles:
+ID: 101 | Pizza - $12.99 (Disponibles: 25)
+
+Ingrese ID del producto: 101 [Enter]
+¿Cuántas unidades?: 2 [Enter]
+
+Ingrese ID del producto (o 'fin'): fin [Enter]
+
+[OK] Pedido realizado exitosamente.
+
+PASO 9: Ver Información
+════════════════════════════════════════════════════════════════════════════
+Opción 4: Ver todos los productos
+Opción 5: Ver todos los clientes
+Opción 6: Ver estadísticas
+Opción 7: Ver inventario
+
+PASO 10: Salir (Opción 8)
+════════════════════════════════════════════════════════════════════════════
+Seleccione una opción: 8 [Enter]
+
+¡Gracias por usar el Sistema de Gestión de Restaurante!
+
+═══════════════════════════════════════════════════════════════════════════
+                           CARACTERÍSTICAS DEL PROGRAMA
+═══════════════════════════════════════════════════════════════════════════
+
+✓ Interfaz Interactiva con Menúes Claros
+✓ Agregar Productos Manualmente
+✓ Registrar Clientes Manualmente
+✓ Procesar Pedidos con Validación de Inventario
+✓ Ver Catálogo Completo
+✓ Ver Lista de Clientes Registrados
+✓ Estadísticas de Ingresos y Totales
+✓ Control de Inventario en Tiempo Real
+✓ Validación de Datos Automática
+✓ Mensajes de Error Claros
+✓ Organización Modular POO
+
+═══════════════════════════════════════════════════════════════════════════
+                        INFORMACIÓN SOBRE LOS ARCHIVOS
+═══════════════════════════════════════════════════════════════════════════
+
+main_interactivo.py
+─────────────────────
+• Programa principal con menú interactivo
+• Permite entrada manual de datos
+• 10,024 bytes
+• Contiene: menúes, validaciones, entrada de usuario
+
+main.py
+─────────────────────
+• Versión de demostración automática
+• Crea datos de ejemplo predefinidos
+• 5,123 bytes
+
+modelos/producto.py
+─────────────────────
+• Clase Producto con atributos y métodos
+• 2,629 bytes
+• Constructor, __str__(), y 4 métodos
+
+modelos/cliente.py
+─────────────────────
+• Clase Cliente con atributos y métodos
+• 2,904 bytes
+• Constructor, __str__(), y 5 métodos
+
+servicios/restaurante.py
+─────────────────────
+• Clase Restaurante (gestor del sistema)
+• 6,694 bytes
+• Constructor, __str__(), y 8 métodos principales
+
+═══════════════════════════════════════════════════════════════════════════
+                            DOCUMENTACIÓN DISPONIBLE
+═══════════════════════════════════════════════════════════════════════════
+
+1. README.md
+   └─ Análisis completo de cada clase y método (450+ líneas)
+
+2. GUIA_PROGRAMA_INTERACTIVO.md
+   └─ Manual de uso detallado con ejemplos (400+ líneas)
+
+3. RESUMEN_PROYECTO.md
+   └─ Resumen ejecutivo y requisitos cumplidos
+
+4. INICIO_RAPIDO.md
+   └─ Instrucciones de inicio rápido
+
+═══════════════════════════════════════════════════════════════════════════
+                           REQUISITOS CUMPLIDOS
+═══════════════════════════════════════════════════════════════════════════
+
+✓ Estructura Modular Obligatoria
+   ├─ Carpeta modelos/ ✓
+   ├─ Carpeta servicios/ ✓
+   └─ Archivo main.py ✓
+
+✓ Clases Implementadas
+   ├─ Clase Producto ✓
+   ├─ Clase Cliente ✓
+   └─ Clase Restaurante ✓
+
+✓ Conceptos POO
+   ├─ Constructor __init__() ✓
+   ├─ Atributos de instancia ✓
+   ├─ Métodos de instancia ✓
+   ├─ Método especial __str__() ✓
+   ├─ Importaciones correctas ✓
+   └─ Encapsulación ✓
+
+✓ Funcionalidades
+   ├─ Agregar productos ✓
+   ├─ Registrar clientes ✓
+   ├─ Realizar pedidos ✓
+   ├─ Consultar información ✓
+   └─ Ver estadísticas ✓
+
+═══════════════════════════════════════════════════════════════════════════
+                         SOLUCIÓN DE PROBLEMAS
+═══════════════════════════════════════════════════════════════════════════
+
+PROBLEMA: "python: command not found"
+SOLUCIÓN: Instala Python desde https://www.python.org/
+
+PROBLEMA: "No such file or directory"
+SOLUCIÓN: Verifica que estés en el directorio correcto con: dir
+
+PROBLEMA: Caracteres extraños en la consola
+SOLUCIÓN: Es un problema de codificación de Windows, el programa sigue funcionando
+
+PROBLEMA: El programa no responde a los menúes
+SOLUCIÓN: Asegúrate de presionar Enter después de cada entrada
+
+═══════════════════════════════════════════════════════════════════════════
+                              VERSIONES DISPONIBLES
+═══════════════════════════════════════════════════════════════════════════
+
+1. main_interactivo.py     ← VERSIÓN INTERACTIVA (RECOMENDADA)
+   Características: Menúes, entrada manual, información dinámica
+
+2. main.py                 ← VERSIÓN DE DEMOSTRACIÓN
+   Características: Ejemplo automático, datos predefinidos
+
+═══════════════════════════════════════════════════════════════════════════
+                          SOPORTE Y DOCUMENTACIÓN
+═══════════════════════════════════════════════════════════════════════════
+
+Para más información, consulta los archivos:
+• README.md                      - Guía técnica completa
+• GUIA_PROGRAMA_INTERACTIVO.md   - Manual de usuario
+• INICIO_RAPIDO.md               - Inicio rápido
+
+═══════════════════════════════════════════════════════════════════════════
+
+Última Actualización: Junio 18, 2026
+Estado: COMPLETADO Y FUNCIONAL
+Versión: 1.0 (Con Menú Interactivo)
+
+═══════════════════════════════════════════════════════════════════════════
+

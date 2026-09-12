@@ -1,0 +1,26 @@
+[
+    {
+        "codigo": "P001",
+        "nombre": "Pizza Margarita",
+        "categoria": "Platos Principales",
+        "precio": 12.5,
+        "stock": 0,
+        "tipo": "Producto"
+    },
+    {
+        "codigo": "P002",
+        "nombre": "Ensalada César",
+        "categoria": "Ensaladas",
+        "precio": 8.5,
+        "stock": 0,
+        "tipo": "Producto"
+    },
+    {
+        "codigo": "P003",
+        "nombre": "Pasta Carbonara",
+        "categoria": "Platos Principales",
+        "precio": 11.0,
+        "stock": 0,
+        "tipo": "Producto"
+    }
+]

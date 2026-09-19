@@ -1,0 +1,20 @@
+[
+    {
+        "usuario": "admin",
+        "password": "admin",
+        "nombre": "Administrador",
+        "rol": "administrador"
+    },
+    {
+        "usuario": "mesero",
+        "password": "5678",
+        "nombre": "Mesero del restaurante",
+        "rol": "mesero"
+    },
+    {
+        "usuario": "dayvis2002",
+        "password": "Calderon",
+        "nombre": "Dayvis Calderón",
+        "rol": "administrador"
+    }
+]

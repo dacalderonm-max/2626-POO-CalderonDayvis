@@ -1,0 +1,37 @@
+[
+    {
+        "codigo": "P001",
+        "nombre": "Pizza Margarita",
+        "categoria": "Platos Principales",
+        "precio": 12.5,
+        "stock": 24
+    },
+    {
+        "codigo": "P002",
+        "nombre": "Ensalada César",
+        "categoria": "Ensaladas",
+        "precio": 8.5,
+        "stock": 30
+    },
+    {
+        "codigo": "P003",
+        "nombre": "Pasta Carbonara",
+        "categoria": "Platos Principales",
+        "precio": 11.0,
+        "stock": 20
+    },
+    {
+        "codigo": "P004",
+        "nombre": "Jugo Natural",
+        "categoria": "Bebidas",
+        "precio": 3.5,
+        "stock": 50
+    },
+    {
+        "codigo": "P005",
+        "nombre": "Tiramisú",
+        "categoria": "Postres",
+        "precio": 6.0,
+        "stock": 15
+    }
+]

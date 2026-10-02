@@ -1,0 +1,158 @@
+[
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-09-26 09:58:12"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:16"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:17"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:18"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:18"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:18"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:18"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:18"
+    },
+    {
+        "usuario_id": "cliente1",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:24"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:25"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:25"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:25"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:26"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:26"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:31"
+    },
+    {
+        "usuario_id": "cliente1",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 11:59:42"
+    },
+    {
+        "usuario_id": "cliente1",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 12:03:50"
+    },
+    {
+        "usuario_id": "cliente1",
+        "producto_codigo": "P001",
+        "cantidad": 2,
+        "fecha": "2026-10-02 12:11:45"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 12:14:06"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 12:14:08"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P003",
+        "cantidad": 4,
+        "fecha": "2026-10-02 12:14:23"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 12:14:24"
+    },
+    {
+        "usuario_id": "aly",
+        "producto_codigo": "P003",
+        "cantidad": 4,
+        "fecha": "2026-10-02 12:14:32"
+    },
+    {
+        "usuario_id": "aly",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 12:15:53"
+    },
+    {
+        "usuario_id": "admin",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 12:15:54"
+    },
+    {
+        "usuario_id": "aly",
+        "producto_codigo": "P001",
+        "cantidad": 1,
+        "fecha": "2026-10-02 12:16:03"
+    }
+]

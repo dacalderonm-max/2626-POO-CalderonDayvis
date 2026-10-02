@@ -1,0 +1,26 @@
+[
+    {
+        "usuario": "admin",
+        "password": "1234",
+        "nombre": "Administrador Principal",
+        "rol": "Administrador"
+    },
+    {
+        "usuario": "mesero",
+        "password": "5678",
+        "nombre": "Carlos Mesero",
+        "rol": "Empleado"
+    },
+    {
+        "usuario": "cliente1",
+        "password": "1234",
+        "nombre": "María González",
+        "rol": "Cliente"
+    },
+    {
+        "usuario": "aly",
+        "password": "123456",
+        "nombre": "dayvis",
+        "rol": "Cliente"
+    }
+]
